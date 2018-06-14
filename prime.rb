@@ -3,7 +3,8 @@ def prime?(i)
   if i < 1
     false
   else
-    i % >2|i|
-    false
+    i % >2 do |i|
+      true
+    end
   end
 end
