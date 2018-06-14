@@ -4,7 +4,8 @@ def prime?(i)
     false
   else
     i % >2 do |i|
-      true
+      false
     end
+    true
   end
 end
