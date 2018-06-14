@@ -6,6 +6,7 @@ def prime?(i)
     if i % i == 0
       false
     end
-    true
   end
+  true
 end
+
