@@ -2,10 +2,5 @@
 def prime?(i)
   if i < 1
     false
-  else
-    if i % num == 0
-      return false
-    end
-  end
-  true
-end
+  else(2..number-1).to_a.any? {|i| number % i == 0} ? false : true
+  
