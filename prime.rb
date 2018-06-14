@@ -2,6 +2,6 @@
 def prime?(i)
   if i < 2
     return false
-    (2..number-1).to_a.any? {|i| number % i == 0} ? false : true
+    (2..i-1).to_a.any? {|num| i % num == 0} ? false : true
   end
 end
